@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d0a6fcd6-dbd6-469d-9c4e-5abb3e802946" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/public/fonts/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/Estedad-Black.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/Estedad-Bold.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/Estedad-ExtraBold.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/Estedad-ExtraLight.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/Estedad-Light.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/Estedad-Medium.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/Estedad-Regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/Estedad-SemiBold.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/Estedad-Thin.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/image/Courses1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/image/Courses2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/image/Courses3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/image/Frame 108.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/image/Frame 109.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/image/Group 1123.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/image/Group 1125.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/image/Group 1125.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/image/Group 1188 .svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/image/Group 118844.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/image/Group 1394.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/image/Group 1443.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/image/Group 1458.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/image/Group 1459.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/image/Group 1460.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/image/Rectangle 219.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/image/Rectangle 276.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/image/Rectangle 5 (1).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/image/blog1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/image/image1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/image/image2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/image/image3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/image/image4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/image/imageAbout.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/image/imageBlog.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/image/imageBlog1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/image/imageBlog2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/image/imageCoursesPage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/image/imageDashbord.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/image/imageLogin.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/image/imagebanner.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/image/imgCartShop.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/image/imgCour.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/image/imgblog3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/image/imgblog4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/image/photo_2025-04-27_22-59-29.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/image/photo_admin.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/image/product1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/image/productImage1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/image/productImage2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/image/productImage3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/image/productImage4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/image/profile1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/image/profile2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/image/profile3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/image/profile4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/image/ticketImage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/video/3h27GYvIop5E0F19Xn.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/video/3h78dQU68ONC5BKc5s.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/video/M6BK945OEEh2UuE56v.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/video/Z0u4ZwWLHOAZ4c408c.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/video/ZQH44lyrsMd2E8K671.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Component/client/Layout/Footer.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Component/client/Layout/Header.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Component/client/Layout/Layout.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Component/client/Layout/LayoutWrapper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Component/client/Layout/Navigation.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Component/client/Template/AboutPage.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Component/client/Template/Banner.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Component/client/Template/BannerMain.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Component/client/Template/Blog.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Component/client/Template/BlogPage.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Component/client/Template/CartShop.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Component/client/Template/Category.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Component/client/Template/CheckCodePage.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Component/client/Template/ContactPage.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Component/client/Template/Courses.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Component/client/Template/CoursesPage.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Component/client/Template/DashboardHome.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Component/client/Template/DetailBlog.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Component/client/Template/DetailCourses.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Component/client/Template/DetailProducts.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Component/client/Template/FavoritesPage.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Component/client/Template/HomePage.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Component/client/Template/LoginPage.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Component/client/Template/Manager_Profile.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Component/client/Template/My_Coures.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Component/client/Template/Our_Products.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Component/client/Template/ProductPage.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Component/client/Template/ShippingInfo.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Component/client/Template/TicketAlls.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Component/client/Template/TicketNew.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Component/client/Template/UserProfile.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Component/client/module/CardBlog.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Component/client/module/CardBlogPage.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Component/client/module/CardCategory.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Component/client/module/CardCategoryCoursesPage.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Component/client/module/CardCourses.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Component/client/module/CardPageCourses.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Component/client/module/CardProduct.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Component/client/module/CartTeam.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Component/client/module/CountdownTimer.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Component/client/module/NamePages.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Component/client/module/PopupCategoryCourses.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Component/client/module/PopupFilterCourses.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/Blog/[...blogId]/page.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/Blog/page.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/Contact/page.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/about/page.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/auth/Check_Code/page.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/auth/Login/page.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/cart/ShopInfo/page.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/cart/layout.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/cart/page.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/courses/[...coursesId]/page.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/courses/page.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/dashboard/Favorites/page.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/dashboard/Profile/page.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/dashboard/layout.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/dashboard/my-courses/page.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/dashboard/page.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/dashboard/ticketAll/page.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/dashboard/ticketNew/page.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/products/[...productsId]/page.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/products/page.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stores/useStepStore.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/globals.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layout.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/page.module.css" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="com.haulmont.rcb.function_component" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2xzKKhHHIJ7UcI8XQEjRpRtzIFb" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/PROGRMMING/NEXT/project-dress/src/components/client/template/ShippingInfo.jsx",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="ReactDesignerToolWindowState">
+    <option name="myId2Visible">
+      <map>
+        <entry key="com.haulmont.rcb.reactComponents" value="false" />
+        <entry key="com.haulmont.rcb.reactInspector" value="false" />
+      </map>
+    </option>
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\PROGRMMING\NEXT\project_riki\public\image" />
+      <recent name="D:\PROGRMMING\NEXT\project_riki\public\video" />
+      <recent name="D:\PROGRMMING\NEXT\project_riki\src\Component\client\module" />
+      <recent name="D:\PROGRMMING\NEXT\project_riki\src\Component\client\Layout" />
+      <recent name="D:\PROGRMMING\NEXT\project_riki\public" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\PROGRMMING\NEXT\project_riki\public\video" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d0a6fcd6-dbd6-469d-9c4e-5abb3e802946" name="Changes" comment="" />
+      <created>1748935402288</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1748935402288</updated>
+      <workItem from="1748935407261" duration="9201000" />
+      <workItem from="1748964043657" duration="11954000" />
+      <workItem from="1749012265383" duration="28341000" />
+      <workItem from="1749108195163" duration="7151000" />
+      <workItem from="1749190882015" duration="11781000" />
+      <workItem from="1749236754497" duration="10477000" />
+      <workItem from="1749247939795" duration="8000" />
+      <workItem from="1749286777422" duration="1678000" />
+      <workItem from="1749288492977" duration="3683000" />
+      <workItem from="1749294533044" duration="142000" />
+      <workItem from="1749294703886" duration="2641000" />
+      <workItem from="1749323107670" duration="3356000" />
+      <workItem from="1749367614234" duration="10721000" />
+      <workItem from="1749408828855" duration="12992000" />
+      <workItem from="1749461023549" duration="9619000" />
+      <workItem from="1749500571065" duration="6004000" />
+      <workItem from="1749540423295" duration="7924000" />
+      <workItem from="1749575218432" duration="6703000" />
+      <workItem from="1749708004384" duration="7082000" />
+      <workItem from="1749759669412" duration="3166000" />
+      <workItem from="1749971124918" duration="4717000" />
+      <workItem from="1749976472407" duration="7328000" />
+      <workItem from="1749994610440" duration="918000" />
+      <workItem from="1750008344962" duration="7522000" />
+      <workItem from="1750016118878" duration="2275000" />
+      <workItem from="1750018458557" duration="4856000" />
+      <workItem from="1750060146121" duration="4625000" />
+      <workItem from="1750144160678" duration="3557000" />
+      <workItem from="1750488515483" duration="1193000" />
+      <workItem from="1750500331937" duration="2290000" />
+      <workItem from="1750574092125" duration="5815000" />
+      <workItem from="1750664708151" duration="1208000" />
+      <workItem from="1750744732754" duration="2218000" />
+      <workItem from="1750837474221" duration="8383000" />
+      <workItem from="1750924451482" duration="8453000" />
+      <workItem from="1751013199569" duration="4314000" />
+      <workItem from="1751087500622" duration="2744000" />
+      <workItem from="1751449160914" duration="2057000" />
+      <workItem from="1751815082168" duration="12945000" />
+      <workItem from="1751866295510" duration="10722000" />
+      <workItem from="1751879284800" duration="6376000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
