@@ -8,15 +8,16 @@ import { IoMdEye } from "react-icons/io";
 
 
 function CardBlog({data}) {
+    console.log({data})
     return (
         <>
-            <Link href="" className="relative m-auto block">
+            <Link href={`/Blog/${data.id}`} className="relative m-auto block">
                 <div
                     className="m-auto flex items-center justify-center relative before:content-[''] before:absolute before:inset-0 before:bg-black before:opacity-30 md:rounded-2xl overflow-hidden  md:w-[1224px]">
                     <Image
-                        className=" flex items-center justify-center m-auto md:rounded-2xl "
+                        className=" flex items-center justify-center m-auto md:rounded-2xl object-cover"
                         alt="image"
-                        src={data.image}
+                        src={data.main_image.image_path}
                         width={1224}
                         height={610}
                     />
@@ -28,7 +29,7 @@ function CardBlog({data}) {
                     </p>
                     <div className="flex items-end justify-between">
                         <p className="w-[130px] md:w-[196px] text-[10px] md:text-[15px] mt-10 md:mt-14 mr-5">
-                            {data.description}
+                            {data.content}
                         </p>
                         <div className="flex items-center justify-center ml-5 md:ml-5">
                             <span className="text-[10px] md:text-[14px] ml-2">مشاهده مطلب</span>

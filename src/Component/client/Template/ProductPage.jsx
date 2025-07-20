@@ -1,92 +1,22 @@
-import React from 'react';
+"use client"
+import React, {useEffect} from 'react';
 import NamePages from "@/Component/client/module/NamePages";
-
 import CardProduct from "@/Component/client/module/CardProduct";
 import {MdKeyboardDoubleArrowLeft, MdKeyboardDoubleArrowRight} from "react-icons/md";
+import useProductStore from "@/stores/useProductStore";
+import LoadingOrError from "@/Component/client/module/LoadingOrError";
 
-const dataProducts = [
-    {
-        id: 1,
-        image: "/image/product1.jpg",
-        title: "دستگاه بخور ",
-        description: "ستگاه بخور صورت مدل [مدل دستگاه]، یک انتخاب ایده‌آل برای داشتن پوستی شفاف، مرطوب و سالم است",
-        price: "500.000"
-    },
-    {
-        id: 2,
-        image: "/image/product1.jpg",
-        title: "دستگاه بخور ",
-        description: "ستگاه بخور صورت مدل [مدل دستگاه]، یک انتخاب ایده‌آل برای داشتن پوستی شفاف، مرطوب و سالم است",
-        price: "500.000"
-    },
-    {
-        id: 3,
-        image: "/image/product1.jpg",
-        title: "دستگاه بخور ",
-        description: "ستگاه بخور صورت مدل [مدل دستگاه]، یک انتخاب ایده‌آل برای داشتن پوستی شفاف، مرطوب و سالم است",
-        price: "500.000"
-    },
-    {
-        id: 4,
-        image: "/image/product1.jpg",
-        title: "دستگاه بخور ",
-        description: "ستگاه بخور صورت مدل [مدل دستگاه]، یک انتخاب ایده‌آل برای داشتن پوستی شفاف، مرطوب و سالم است",
-        price: "500.000"
-    },
-    {
-        id: 5,
-        image: "/image/product1.jpg",
-        title: "دستگاه بخور ",
-        description: "ستگاه بخور صورت مدل [مدل دستگاه]، یک انتخاب ایده‌آل برای داشتن پوستی شفاف، مرطوب و سالم است",
-        price: "500.000"
-    },
-    {
-        id: 6,
-        image: "/image/product1.jpg",
-        title: "دستگاه بخور ",
-        description: "ستگاه بخور صورت مدل [مدل دستگاه]، یک انتخاب ایده‌آل برای داشتن پوستی شفاف، مرطوب و سالم است",
-        price: "500.000"
-    },
-    {
-        id: 7,
-        image: "/image/product1.jpg",
-        title: "دستگاه بخور ",
-        description: "ستگاه بخور صورت مدل [مدل دستگاه]، یک انتخاب ایده‌آل برای داشتن پوستی شفاف، مرطوب و سالم است",
-        price: "500.000"
-    },
-    {
-        id: 8,
-        image: "/image/product1.jpg",
-        title: "دستگاه بخور ",
-        description: "ستگاه بخور صورت مدل [مدل دستگاه]، یک انتخاب ایده‌آل برای داشتن پوستی شفاف، مرطوب و سالم است",
-        price: "500.000"
-    },
-    {
-        id: 9,
-        image: "/image/product1.jpg",
-        title: "دستگاه بخور ",
-        description: "ستگاه بخور صورت مدل [مدل دستگاه]، یک انتخاب ایده‌آل برای داشتن پوستی شفاف، مرطوب و سالم است",
-        price: "500.000"
-    },
-    {
-        id: 10,
-        image: "/image/product1.jpg",
-        title: "دستگاه بخور ",
-        description: "ستگاه بخور صورت مدل [مدل دستگاه]، یک انتخاب ایده‌آل برای داشتن پوستی شفاف، مرطوب و سالم است",
-        price: "500.000"
-    },
-    {
-        id: 11,
-        image: "/image/product1.jpg",
-        title: "دستگاه بخور ",
-        description: "ستگاه بخور صورت مدل [مدل دستگاه]، یک انتخاب ایده‌آل برای داشتن پوستی شفاف، مرطوب و سالم است",
-        price: "500.000"
-    },
 
-]
 
 
 function ProductPage(props) {
+    const { products, loading, error, fetchProducts } = useProductStore()
+console.log(products.data)
+
+    useEffect(() => {
+        fetchProducts()
+    }, [])
+
     return (
         <div className="container m-auto">
             <NamePages image="/image/Group 1459.svg"/>
@@ -94,11 +24,12 @@ function ProductPage(props) {
             <div className=" flex items-center justify-between flex-wrap">
                 <div className="flex mt-28 flex-wrap items-center">
                     {
-                        dataProducts.map((item) => (
+                        loading ? (<LoadingOrError message="کمی صبر کنید.."/>) :(
+                        products.data?.map((item) => (
                             <div key={item.id} className="mb-8 m-auto">
                             <CardProduct  data={item}/>
                             </div>
-                        ))
+                        )))
                     }
                 </div>
             </div>

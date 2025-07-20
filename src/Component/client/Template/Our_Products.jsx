@@ -1,5 +1,5 @@
 "use client"
-import React, {useState} from 'react';
+import React, {useEffect, useState} from 'react';
 import NamePages from "@/Component/client/module/NamePages";
 import CardProduct from "@/Component/client/module/CardProduct";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -7,48 +7,21 @@ import { FreeMode, Autoplay } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/free-mode";
 import { motion } from "framer-motion";
+import useProductStore from "@/stores/useProductStore";
 
-const dataProducts = [
-    {
-        id: 1,
-        image: "/image/product1.jpg",
-        title: "دستگاه بخور ",
-        description: "ستگاه بخور صورت مدل [مدل دستگاه]، یک انتخاب ایده‌آل برای داشتن پوستی شفاف، مرطوب و سالم است",
-        price: "500.000"
-    },
-    {
-        id: 2,
-        image: "/image/product1.jpg",
-        title: "دستگاه بخور ",
-        description: "ستگاه بخور صورت مدل [مدل دستگاه]، یک انتخاب ایده‌آل برای داشتن پوستی شفاف، مرطوب و سالم است",
-        price: "500.000"
-    },
-    {
-        id: 3,
-        image: "/image/product1.jpg",
-        title: "دستگاه بخور ",
-        description: "ستگاه بخور صورت مدل [مدل دستگاه]، یک انتخاب ایده‌آل برای داشتن پوستی شفاف، مرطوب و سالم است",
-        price: "500.000"
-    },
-    {
-        id: 4,
-        image: "/image/product1.jpg",
-        title: "دستگاه بخور ",
-        description: "ستگاه بخور صورت مدل [مدل دستگاه]، یک انتخاب ایده‌آل برای داشتن پوستی شفاف، مرطوب و سالم است",
-        price: "500.000"
-    },
-    {
-        id: 5,
-        image: "/image/product1.jpg",
-        title: "دستگاه بخور ",
-        description: "ستگاه بخور صورت مدل [مدل دستگاه]، یک انتخاب ایده‌آل برای داشتن پوستی شفاف، مرطوب و سالم است",
-        price: "500.000"
-    },
-]
+
 
 function OurProducts(props) {
     const [activeIndex, setActiveIndex] = useState(0);
+    const { products, loading, error, fetchProducts } = useProductStore()
+    console.log({products, loading, error, fetchProducts })
     const indicatorsCount = 5;
+
+
+    useEffect(() => {
+        fetchProducts()
+    }, [])
+
     return (
         <div className="mb-10">
             <NamePages image="/image/Group 1459.svg"/>
@@ -83,7 +56,7 @@ function OurProducts(props) {
                 >
                     <div className="flex mt-28 ">
                         {
-                            dataProducts.map((item) => (
+                            products.data?.map((item) => (
                                 <SwiperSlide key={item.id} className="m-auto mr-40 md:mr-10">
                                     <CardProduct  data={item}/>
                                 </SwiperSlide>

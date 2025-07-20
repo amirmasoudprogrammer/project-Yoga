@@ -8,7 +8,7 @@ function LoginPage(props) {
       <>
           <div
               style={{
-                  backgroundImage: "url('/image/imageLogin.jpg')",
+                  backgroundImage: "ApiBase('/image/imageLogin.jpg')",
                   backgroundSize: "cover",
                   backgroundRepeat: "no-repeat",
                   backgroundPosition: "center",
@@ -42,7 +42,7 @@ function LoginPage(props) {
           </div>
 
           <div style={{
-              backgroundImage: "url('/image/imageLogin.jpg')",
+              backgroundImage: "ApiBase('/image/imageLogin.jpg')",
               backgroundSize: "cover",
               width: "100%",
               height: "100vh"

@@ -19,7 +19,7 @@ function ShippingInfo(props) {
         setFormData(prev => ({...prev, [name]: value}));
     };
     const provinces = ["خراسان رضوی", "تهران", "خراسان جنوبی", "خراسان شمالی"];
-    
+
     return (
 
         <div className="-mt-10">

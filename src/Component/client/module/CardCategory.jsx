@@ -39,7 +39,7 @@ function CardCategory({data, customStyle, index}) {
                            width={304} height={454}/>
                     <div className="w-[200px] flex flex-col ml-1.5 items-start  absolute h-[109px] m-auto left-0 right-0 bg-white/10 bottom-5 rounded-xl bg-opacity-50 backdrop-blur-md">
                     <span className="mr-5 mt-5 mb-2">
-                        {data.title}
+                        {data.name}
                     </span>
                     <p className="text-[12px]  text-center w-[200px] ml-5">{data.description}</p>
                     </div>
@@ -62,7 +62,7 @@ function CardCategory({data, customStyle, index}) {
                     </div>
 
                     <div className="w-[90%] flex  flex-col items-start absolute h-[109px] m-auto left-0 right-0 bg-white bottom-5 rounded-xl bg-opacity-10 backdrop-blur-md px-5 py-3">
-                        <span className="mb-2 text-white font-semibold">{data.title}</span>
+                        <span className="mb-2 text-white font-semibold">{data.name}</span>
                         <p className="text-[12px] text-white">{data.description}</p>
                     </div>
                 </Link>

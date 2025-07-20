@@ -1,5 +1,6 @@
 import "./globals.css";
 import LayoutWrapper from "@/Component/client/Layout/LayoutWrapper";
+import Providers from "@/providers/Providers";
 
 
 export const metadata = {
@@ -11,9 +12,11 @@ export default function RootLayout({children}) {
     return (
         <html lang="fa" dir="rtl">
         <body className="font-estedad bg-white">
+        <Providers>
         <LayoutWrapper>
             {children}
         </LayoutWrapper>
+        </Providers>
         </body>
         </html>
     );

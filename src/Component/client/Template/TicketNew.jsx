@@ -36,6 +36,9 @@ function TicketNew(props) {
     ]);
     const [selectedFaq, setSelectedFaq] = useState(null);
 
+
+
+
     return (
         <>
             <>

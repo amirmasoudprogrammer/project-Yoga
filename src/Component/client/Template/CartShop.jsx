@@ -1,10 +1,25 @@
 import React from 'react';
 import Image from "next/image";
 import { MdDelete } from "react-icons/md";
+import {useCartStore} from "@/stores/cartStore";
+import {toast, Toaster} from "sonner";
 
 function CartShop() {
+
+    const cartState = useCartStore(state => state);
+    const RemoveITEM = useCartStore(state => state.RemoveITEM);
+    console.log(cartState)
+
+    const RemoveCart = (item) =>{
+        RemoveITEM(item)
+        toast.success("محصول از سبد خرید حذف شد..");
+    }
+
+
     return (
         <div className="container mx-auto -mt-12 px-4 mb-10">
+            <Toaster expand={true} position="top-center" richColors/>
+
             <span className="text-black font-bold text-[20px] sm:text-[24px]">سبد خرید شما</span>
 
             <div className="flex flex-col">
@@ -32,42 +47,42 @@ function CartShop() {
 
                 {/* Items */}
                 <div className="flex flex-col items-center justify-between">
-                    {[1, 2].map((_, index) => (
+                    {cartState.selectedItems.map((item) => (
                         <div
-                            key={index}
+                            key={item.id}
                             className="w-full max-w-[812px] border  border-b border-x border-slate-400 flex flex-col md:flex-row items-center justify-between px-4 py-4 md:h-[112px] last:rounded-b-xl"
                         >
                             {/* Product Image and Title */}
                             <div className="flex items-center w-full md:w-auto md:mr-5 mb-4 md:mb-0">
                                 <Image
                                     className="w-[80px] h-[80px] object-cover rounded-xl shadow-lg"
-                                    src="/image/imgCartShop.jpg"
+                                    src={item.featured_image}
                                     alt="product"
                                     width={80}
                                     height={80}
                                 />
                                 <p className="text-black mr-5 w-full md:w-[150px] text-start mt-3 text-[14px] md:text-[12px] leading-5">
-                                    دوره جامع آموزش ریکی همراه با پشتیبانی
+                                    {item.name}
                                 </p>
                             </div>
 
                             {/* Price */}
                             <div className="text-[#8C8C8C] text-[16px] mb-2 md:mb-0 md:mr-10 w-full md:w-auto text-right">
-                                <span>6.500.000 تومان</span>
+                                <span>{Number(item.price).toLocaleString('fa-IR')}تومان</span>
                             </div>
 
                             {/* Quantity and Delete */}
                             <div className="flex items-center justify-around border border-slate-400 w-full md:w-[87px] h-[42px] rounded-xl mb-2 md:mb-0 md:mr-20">
-                                <span className="text-black font-bold">+</span>
-                                <p className="text-black font-bold">1</p>
-                                <span className="text-red-600 font-bold">
+                                <span className="text-black font-bold cursor-pointer">+</span>
+                                <p className="text-black font-bold ">{item.quantity}</p>
+                                <span className="text-red-600 font-bold cursor-pointer" onClick={() =>RemoveCart(item.id)}>
                                     <MdDelete />
                                 </span>
                             </div>
 
                             {/* Total Price */}
                             <div className="text-red-600 font-bold text-[14px] w-full md:w-auto text-right md:mr-20">
-                                <span>6.500.000 تومان</span>
+                                <span>{Number(item.price).toLocaleString('fa-IR')} تومان</span>
                             </div>
                         </div>
                     ))}

@@ -1,5 +1,5 @@
 "use client"
-import React from 'react';
+import React, {useEffect, useState} from 'react';
 import NamePages from "@/Component/client/module/NamePages";
 import CardCategory from "@/Component/client/module/CardCategory";
 import {Swiper, SwiperSlide} from 'swiper/react';
@@ -8,6 +8,9 @@ import {Pagination} from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import Link from "next/link";
+import Cookies from "js-cookie";
+import axios from "axios";
+import BASE_URL from "@/ApiBase/Base";
 
 const DataCategory = [
     {
@@ -38,13 +41,35 @@ const DataCategory = [
 
 
 function Category(props) {
+    const [category, setCategory] = useState([])
+
+    const fetchCategory = async () => {
+        try {
+            const token = Cookies.get('token');
+            const res = await axios.get(`${BASE_URL}/v1/admin/categories`, {
+                headers: token ? {Authorization: `Bearer ${token}`} : {}
+            });
+            setCategory(res.data.data)
+
+        } catch (error) {
+            console.error('خطا در گرفتن داده‌ها:', error);
+        }
+    };
+
+    useEffect(() => {
+        fetchCategory();
+        const interval = setInterval(fetchCategory, 5000);
+        return () => clearInterval(interval);
+    }, []);
+
+
     return (
         <div className="mb-28">
             <NamePages image="/image/Group 1125.png"/>
 
             <div className="hidden md:flex mt-16 items-center justify-center">
                 {
-                    DataCategory.map((item, index) => {
+                    category.map((item, index) => {
                         let customStyle = "";
 
                         if (index === 0) customStyle = "mb-10";
@@ -65,7 +90,7 @@ function Category(props) {
                     slidesPerView={1}
                     pagination={{clickable: true}}
                 >
-                    {DataCategory.map((item, index) => (
+                    {category.map((item, index) => (
                         <SwiperSlide key={item.id}>
                             <CardCategory
                                 data={item}
@@ -77,7 +102,8 @@ function Category(props) {
                 </Swiper>
             </div>
 
-            <Link href="" className="m-auto w-full md:w-[250px] text-white h-[50px] bg-[#59518C] md:rounded-lg text-black flex items-center justify-center mt-20">
+            <Link href=""
+                  className="m-auto w-full md:w-[250px] text-white h-[50px] bg-[#59518C] md:rounded-lg text-black flex items-center justify-center mt-20">
                 نمایش بیشتر
             </Link>
         </div>

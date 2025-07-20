@@ -10,7 +10,7 @@ import Navigation from "@/Component/client/Layout/Navigation";
 function Footer() {
     return (
         <>
-            <footer style={{backgroundImage: "url('/image/Rectangle 219.svg')"}}
+            <footer style={{ backgroundImage: "url('/image/Rectangle 219.svg')"}}
                     className="hidden md:block w-full h-[392px] flex flex-col items-center overflow-hidden justify-center">
                 <div className=" flex items-center justify-center mt-32 justify-center">
 
@@ -74,7 +74,7 @@ function Footer() {
 
             <footer
                 style={{
-                    backgroundImage: "url('/image/Rectangle 276.svg')",
+                    backgroundImage: "ApiBase('/image/Rectangle 276.svg')",
                     backgroundRepeat: "no-repeat",
                     backgroundSize: "contain",
                     backgroundPosition: "center",

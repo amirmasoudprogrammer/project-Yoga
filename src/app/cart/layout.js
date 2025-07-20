@@ -98,7 +98,7 @@ function Layout({children}) {
                             <div
                                 className="flex items-center justify-around w-full mt-5 border-b border-b-slate-400 pb-5">
                                 <span className="text-black">محصول</span>
-                                <span className="text-black">قیمت کل</span>
+                                <span className="text-black">قیمت </span>
                             </div>
                             <div
                                 className="flex items-center justify-between flex-col border-b border-b-slate-400 w-full pb-5">

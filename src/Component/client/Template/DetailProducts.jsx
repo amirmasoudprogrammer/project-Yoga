@@ -13,60 +13,28 @@ import {Swiper, SwiperSlide} from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/effect-coverflow';
 import NamePages from "@/Component/client/module/NamePages";
+import useProductStore from "@/stores/useProductStore";
+import LoadingOrError from "@/Component/client/module/LoadingOrError";
+import {useCartStore} from "@/stores/cartStore";
+import {toast, Toaster} from "sonner";
 
-const dataImage = [
-    {id: 1, image: "/image/productImage1.jpg"},
-    {id: 2, image: "/image/productImage2.jpg"},
-    {id: 3, image: "/image/productImage3.jpg"},
-    {id: 4, image: "/image/productImage4.jpg"},
-]
-const dataProducts = [
-    {
-        id: 1,
-        image: "/image/product1.jpg",
-        title: "دستگاه بخور ",
-        description: "ستگاه بخور صورت مدل [مدل دستگاه]، یک انتخاب ایده‌آل برای داشتن پوستی شفاف، مرطوب و سالم است",
-        price: "500.000"
-    },
-    {
-        id: 2,
-        image: "/image/product1.jpg",
-        title: "دستگاه بخور ",
-        description: "ستگاه بخور صورت مدل [مدل دستگاه]، یک انتخاب ایده‌آل برای داشتن پوستی شفاف، مرطوب و سالم است",
-        price: "500.000"
-    },
-    {
-        id: 3,
-        image: "/image/product1.jpg",
-        title: "دستگاه بخور ",
-        description: "ستگاه بخور صورت مدل [مدل دستگاه]، یک انتخاب ایده‌آل برای داشتن پوستی شفاف، مرطوب و سالم است",
-        price: "500.000"
-    },
-    {
-        id: 4,
-        image: "/image/product1.jpg",
-        title: "دستگاه بخور ",
-        description: "ستگاه بخور صورت مدل [مدل دستگاه]، یک انتخاب ایده‌آل برای داشتن پوستی شفاف، مرطوب و سالم است",
-        price: "500.000"
-    },
-    {
-        id: 5,
-        image: "/image/product1.jpg",
-        title: "دستگاه بخور ",
-        description: "ستگاه بخور صورت مدل [مدل دستگاه]، یک انتخاب ایده‌آل برای داشتن پوستی شفاف، مرطوب و سالم است",
-        price: "500.000"
-    },
-]
 
-function DetailProducts(props) {
+function DetailProducts({data, slug}) {
+
     const prevRef = useRef(null);
     const nextRef = useRef(null);
     const [swiperInstance, setSwiperInstance] = useState(null);
-    const [mainImage, setMainImage] = useState(dataImage[2].image || null);
+    const [mainImage, setMainImage] = useState(data.featured_image);
+    const {products, loading, error, fetchProducts} = useProductStore()
+    const Additem = useCartStore(state =>state.AddITEM)
     const handleImageChange = (image) => {
         setMainImage(image);
     };
 
+
+    useEffect(() => {
+        fetchProducts()
+    }, [])
 
     useEffect(() => {
         if (swiperInstance) {
@@ -77,14 +45,20 @@ function DetailProducts(props) {
         }
     }, [swiperInstance]);
 
+    const AddToCart = () =>{
+        Additem(data)
+        toast.success("محصول به سبد خرید اضافه شد...");
+    }
+
     return (
         <>
-            <div
-                className="container m-auto mb-8 flex relative items-start flex-col justify-between mt-24 w-[360px] h-[431px] md:w-[1224px] md:h-[729px] rounded-xl border border-[#eeeeee]  shadow-xl">
+            <Toaster expand={true} position="top-center" richColors/>
+
+            <div className="container m-auto mb-8 flex rounded relative items-start flex-col justify-between mt-24 w-[360px] h-[431px] md:w-[1224px] md:h-[729px] rounded-xl border border-[#eeeeee]  shadow-xl">
                 <div className="flex tems-start justify-between">
                     <div className="mt-10">
                         <div className="text-black text-[20px] md:text-[44px] font-bold mr-4  md:mr-20">
-                            دستگاه بخور
+                            {data.name}
                         </div>
                         <div
                             className="w-[200px] md:w-auto flex items-start md:items-center flex-wrap mr-2 md:mr-20 mt-5">
@@ -100,7 +74,7 @@ function DetailProducts(props) {
                             </div>
                             <div className="md:mr-3 md:border-r-4 pr-2 mt-4 text-[#756CBF]">
                         <span>
-                            3.500.000تومان
+                            {Number(data.price).toLocaleString('fa-IR')}تومان
                         </span>
                             </div>
                         </div>
@@ -108,32 +82,29 @@ function DetailProducts(props) {
                             <p className="text-[20px] text-black">توضیحات:</p>
                             <div className='w-[200px]  md:w-[448px]'>
                                 <p className="text-[#8C8C8C] md:mt-8 text-[12px] md:text-[14px] ">
-                                    ستگاه بخور صورت مدل [مدل دستگاه]، یک انتخاب ایده‌آل برای داشتن پوستی شفاف، مرطوب و
-                                    سالم
-                                    استستگاه بخور صورت مدل [مدل دستگاه]، یک انتخاب ایده‌آل برای داشتن پوستی شفاف، مرطوب
-                                    و سالم
-                                    است
+                                    {data.description}
                                 </p>
                             </div>
                         </div>
                         <div className="flex items-start md:mr-14 mt-3 md:mt-10 cursor-pointer">
-                            {dataImage?.map((img, index) => (
+                            {data.images?.map((img, index) => (
                                 <Image
                                     key={index}
-                                    src={img.image}
+                                    src={img.image_path}
                                     alt="image"
                                     width={50}
                                     height={50}
-                                    className={img.image === mainImage ? "border-4 border-[#756CBF] shadow-xl rounded-xl transition-all w-[40px] h-[40px] md:w-[50px] md:h-[50px] mr-3" : "w-[40px] h-[40px] md:w-[50px] md:h-[50px] rounded-xl mr-3"}
-                                    onClick={() => handleImageChange(img.image)}
+                                    className={img.image_path === mainImage ? "border-4 border-[#756CBF] shadow-xl rounded-xl transition-all w-[40px] h-[40px] md:w-[50px] md:h-[50px] mr-3" : "w-[40px] h-[40px] md:w-[50px] md:h-[50px] rounded-xl mr-3"}
+                                    onClick={() => handleImageChange(img.image_path)}
                                 />
                             ))}
                         </div>
                     </div>
-                    <div className="w-[154px] h-[431px] md:w-[620px] md:h-[729px] md:mr-36">
+                    <div className="w-[154px] h-[431px] md:w-[620px] md:h-[729px] md:mr-36 rounded">
                         {mainImage ?
                             <Image src={mainImage} quality={100}
-                                   className="w-[154px] h-[431px] md:w-[612px] md:h-[729px] object-cover" alt="IMAGE"
+                                   className="w-[154px] h-[431px] rounded md:w-[612px] md:h-[729px] object-cover"
+                                   alt="IMAGE"
                                    width={612} height={729}/> :
                             null}
                     </div>
@@ -145,7 +116,7 @@ function DetailProducts(props) {
                       <span className="ml-5">
                         <CiShoppingCart/>
                     </span>
-                        <button>
+                        <button onClick={AddToCart}>
                             افزودن به سبد خرید
                         </button>
 
@@ -164,7 +135,7 @@ function DetailProducts(props) {
                         <span className="text-black ml-2 md:ml-5 font-bold text-[9px] md:text-[15px]">دستگاه بخور(مدل دستگاه)</span>
                         <div>
                             <Image className="rounded-xl w-[40px] h-[40px] md:w-[80px] md:h-[80px]"
-                                   src={dataImage[1].image}
+                                   src={mainImage}
                                    alt="image" quality={80} width={80} height={729}/>
                         </div>
                     </div>
@@ -221,18 +192,22 @@ function DetailProducts(props) {
                         breakpoints={{
                             360: {slidesPerView: 1},
                             480: {slidesPerView: 1},
-                            640: {slidesPerView: 1},
+                            640: {slidesPerView: 4},
                             1024: {slidesPerView: 4},
                         }}
                     >
                         {
-                            dataProducts.map((item) => (
-                                <SwiperSlide key={item.id} className=" flex items-center justify-center md:mr-5">
+                            loading ? (<LoadingOrError message="کمی صبر کنید "/>) : (
+                                products.data?.map((item) => (
+                                    <SwiperSlide key={item.id} className=" flex items-center justify-center md:mr-5">
+                                        <CardProduct data={item}/>
+                                    </SwiperSlide>
+                                ))
 
-                                    <CardProduct data={item}/>
-                                </SwiperSlide>
-                            ))
+                            )
                         }
+
+
                     </Swiper>
                     <button ref={prevRef}
                             className="border bg-[#59518C] flex items-center justify-center w-[40px] text-white h-[40px] border-[#59518C] rounded-full p-2 text-[#59518C]  m-auto">

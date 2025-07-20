@@ -2,141 +2,140 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d0a6fcd6-dbd6-469d-9c4e-5abb3e802946" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/public/fonts/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/Estedad-Black.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/Estedad-Bold.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/Estedad-ExtraBold.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/Estedad-ExtraLight.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/Estedad-Light.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/Estedad-Medium.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/Estedad-Regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/Estedad-SemiBold.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/Estedad-Thin.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/image/Courses1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/image/Courses2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/image/Courses3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/image/Frame 108.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/image/Frame 109.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/image/Group 1123.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/image/Group 1125.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/image/Group 1125.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/image/Group 1188 .svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/image/Group 118844.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/image/Group 1394.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/image/Group 1443.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/image/Group 1458.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/image/Group 1459.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/image/Group 1460.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/image/Rectangle 219.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/image/Rectangle 276.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/image/Rectangle 5 (1).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/image/blog1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/image/image1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/image/image2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/image/image3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/image/image4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/image/imageAbout.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/image/imageBlog.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/image/imageBlog1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/image/imageBlog2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/image/imageCoursesPage.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/image/imageDashbord.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/image/imageLogin.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/image/imagebanner.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/image/imgCartShop.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/image/imgCour.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/image/imgblog3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/image/imgblog4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/image/photo_2025-04-27_22-59-29.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/image/photo_admin.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/image/product1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/image/productImage1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/image/productImage2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/image/productImage3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/image/productImage4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/image/profile1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/image/profile2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/image/profile3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/image/profile4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/image/ticketImage.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/video/3h27GYvIop5E0F19Xn.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/video/3h78dQU68ONC5BKc5s.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/video/M6BK945OEEh2UuE56v.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/video/Z0u4ZwWLHOAZ4c408c.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/video/ZQH44lyrsMd2E8K671.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Component/client/Layout/Footer.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Component/client/Layout/Header.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Component/client/Layout/Layout.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Component/client/Layout/LayoutWrapper.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Component/client/Layout/Navigation.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Component/client/Template/AboutPage.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Component/client/Template/Banner.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Component/client/Template/BannerMain.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Component/client/Template/Blog.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Component/client/Template/BlogPage.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Component/client/Template/CartShop.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Component/client/Template/Category.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Component/client/Template/CheckCodePage.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Component/client/Template/ContactPage.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Component/client/Template/Courses.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Component/client/Template/CoursesPage.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Component/client/Template/DashboardHome.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Component/client/Template/DetailBlog.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Component/client/Template/DetailCourses.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Component/client/Template/DetailProducts.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Component/client/Template/FavoritesPage.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Component/client/Template/HomePage.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Component/client/Template/LoginPage.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Component/client/Template/Manager_Profile.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Component/client/Template/My_Coures.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Component/client/Template/Our_Products.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Component/client/Template/ProductPage.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Component/client/Template/ShippingInfo.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Component/client/Template/TicketAlls.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Component/client/Template/TicketNew.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Component/client/Template/UserProfile.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Component/client/module/CardBlog.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Component/client/module/CardBlogPage.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Component/client/module/CardCategory.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Component/client/module/CardCategoryCoursesPage.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Component/client/module/CardCourses.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Component/client/module/CardPageCourses.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Component/client/module/CardProduct.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Component/client/module/CartTeam.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Component/client/module/CountdownTimer.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Component/client/module/NamePages.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Component/client/module/PopupCategoryCourses.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Component/client/module/PopupFilterCourses.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/Blog/[...blogId]/page.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/Blog/page.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/Contact/page.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/about/page.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/auth/Check_Code/page.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/auth/Login/page.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/cart/ShopInfo/page.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/cart/layout.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/cart/page.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/courses/[...coursesId]/page.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/courses/page.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/dashboard/Favorites/page.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/dashboard/Profile/page.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/dashboard/layout.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/dashboard/my-courses/page.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/dashboard/page.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/dashboard/ticketAll/page.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/dashboard/ticketNew/page.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/products/[...productsId]/page.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/products/page.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stores/useStepStore.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ApiBase/Base.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Component/admin/modules/AddAbout.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Component/admin/modules/AdminsRoles.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Component/admin/modules/Badge.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Component/admin/modules/ColorDelete.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Component/admin/modules/Comments.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Component/admin/modules/CreateBanner.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Component/admin/modules/DataTable.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Component/admin/modules/DatePickerField.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Component/admin/modules/DecreaseWarehouse.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Component/admin/modules/DeleteAdmins.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Component/admin/modules/DeleteBanner.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Component/admin/modules/DeleteBlogs.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Component/admin/modules/DeleteCategories.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Component/admin/modules/DeleteProducts.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Component/admin/modules/DeleteRoles.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Component/admin/modules/DeleteUser.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Component/admin/modules/DiscountDelete.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Component/admin/modules/DiscountsCategories.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Component/admin/modules/DiscountsMinMax.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Component/admin/modules/EditAbout.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Component/admin/modules/EditAdmin.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Component/admin/modules/EditAdminRoles.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Component/admin/modules/EditBlogs.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Component/admin/modules/EditCategories.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Component/admin/modules/EditColors.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Component/admin/modules/EditProducts.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Component/admin/modules/EditRoles.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Component/admin/modules/EditUser.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Component/admin/modules/IncreaseWarehouse.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Component/admin/modules/InputFieldDiscounts.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Component/admin/modules/Modal.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Component/admin/modules/NamePages.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Component/admin/modules/Pagination.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Component/admin/modules/PopupAddColors.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Component/admin/modules/PopupDiscounts.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Component/admin/modules/PopupImageBlogs.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Component/admin/modules/PopupTicketSee.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Component/admin/modules/Popups.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Component/admin/modules/PopupsReplyComments.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Component/admin/modules/Profile.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Component/admin/modules/ReplyComments.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Component/admin/modules/ReplyTicket.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Component/admin/modules/SelectFieldDiscounts.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Component/admin/modules/StatCard.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Component/admin/modules/TableCellDiscount.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Component/admin/modules/TableHeadDiscount.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Component/admin/modules/UserRoles.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Component/admin/modules/WarehouseInventory.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Component/admin/modules/WarehouseProducts.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Component/admin/templates/AboutPage.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Component/admin/templates/AddBlogs.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Component/admin/templates/AddDiscount.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Component/admin/templates/AddProduct.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Component/admin/templates/BannersPage.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Component/admin/templates/BlogsPage.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Component/admin/templates/CategoriesPage.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Component/admin/templates/CreateCategoriesPage.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Component/admin/templates/DiscountsPage.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Component/admin/templates/EditPageDiscounts.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Component/admin/templates/LoginAdmin.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Component/admin/templates/OrdersPage.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Component/admin/templates/PermissionsPage.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Component/admin/templates/ProductColors.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Component/admin/templates/ProductPage.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Component/admin/templates/RolesPage.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Component/admin/templates/TicketPage.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Component/admin/templates/UserPage.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Component/admin/templates/WarehousePage.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Component/client/module/LoadingOrError.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Component/client/module/SortIdBlog.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Component/client/module/SortIdBlog2.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Component/client/module/SortIdBlog3.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Component/client/module/SortIdBlog4.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Component/client/module/SortIdBlog5.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/LoginAdmin/page.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/admin-panel/About/page.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/admin-panel/AdminGuard.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/admin-panel/Banners/page.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/admin-panel/Blogs/add/page.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/admin-panel/Blogs/page.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/admin-panel/Categories/add/page.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/admin-panel/Categories/page.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/admin-panel/Comments/page.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/admin-panel/Dashboard/DashboardOne/page.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/admin-panel/Dashboard/DashboardTwo/page.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/admin-panel/Discounts/Add/page.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/admin-panel/Discounts/page.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/admin-panel/Orders/page.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/admin-panel/Pages/page.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/admin-panel/Product/add/page.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/admin-panel/Product/page.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/admin-panel/Products_Comments/page.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/admin-panel/Settings/page.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/admin-panel/Users/page.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/admin-panel/Users/permissions/page.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/admin-panel/Users/roles/page.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/admin-panel/Warehouse/page.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/admin-panel/layout.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/admin-panel/page.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/admin-panel/ticket/page.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/helper/convertToPersianDate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/helper/helper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/providers/Providers.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stores/cartStore.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stores/useProductStore.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eslint.config.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/eslint.config.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/next.config.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.mjs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/globals.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Component/client/Layout/Footer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Component/client/Layout/Footer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Component/client/Layout/LayoutWrapper.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Component/client/Layout/LayoutWrapper.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Component/client/Template/Banner.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Component/client/Template/Banner.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Component/client/Template/BannerMain.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Component/client/Template/BannerMain.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Component/client/Template/Blog.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Component/client/Template/Blog.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Component/client/Template/BlogPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Component/client/Template/BlogPage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Component/client/Template/CartShop.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Component/client/Template/CartShop.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Component/client/Template/Category.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Component/client/Template/Category.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Component/client/Template/DetailBlog.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Component/client/Template/DetailBlog.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Component/client/Template/DetailProducts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Component/client/Template/DetailProducts.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Component/client/Template/LoginPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Component/client/Template/LoginPage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Component/client/Template/Our_Products.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Component/client/Template/Our_Products.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Component/client/Template/ProductPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Component/client/Template/ProductPage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Component/client/Template/ShippingInfo.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Component/client/Template/ShippingInfo.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Component/client/Template/TicketNew.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Component/client/Template/TicketNew.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Component/client/module/CardBlog.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Component/client/module/CardBlog.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Component/client/module/CardBlogPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Component/client/module/CardBlogPage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Component/client/module/CardCategory.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Component/client/module/CardCategory.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Component/client/module/CardProduct.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Component/client/module/CardProduct.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/Blog/[...blogId]/page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Blog/[...blogId]/page.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/cart/layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/cart/layout.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layout.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/page.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/products/[...productsId]/page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/products/[...productsId]/page.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -149,8 +148,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="com.haulmont.rcb.function_component" />
         <option value="JavaScript File" />
+        <option value="com.haulmont.rcb.arrow_function_component" />
+        <option value="com.haulmont.rcb.function_component" />
       </list>
     </option>
   </component>
@@ -171,7 +171,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/PROGRMMING/NEXT/project-dress/src/components/client/template/ShippingInfo.jsx",
+    "last_opened_file_path": "D:/PROGRMMING/NEXT/project-dress/src/components/client/module/CardShopping.jsx",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
@@ -188,11 +188,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\PROGRMMING\NEXT\project_riki\src\app" />
+      <recent name="D:\PROGRMMING\NEXT\project_riki\src\Component\admin" />
+      <recent name="D:\PROGRMMING\NEXT\project_riki\src\app\admin-panel" />
       <recent name="D:\PROGRMMING\NEXT\project_riki\public\image" />
       <recent name="D:\PROGRMMING\NEXT\project_riki\public\video" />
-      <recent name="D:\PROGRMMING\NEXT\project_riki\src\Component\client\module" />
-      <recent name="D:\PROGRMMING\NEXT\project_riki\src\Component\client\Layout" />
-      <recent name="D:\PROGRMMING\NEXT\project_riki\public" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\PROGRMMING\NEXT\project_riki\public\video" />
@@ -246,7 +246,18 @@
       <workItem from="1751449160914" duration="2057000" />
       <workItem from="1751815082168" duration="12945000" />
       <workItem from="1751866295510" duration="10722000" />
-      <workItem from="1751879284800" duration="6376000" />
+      <workItem from="1751879284800" duration="6377000" />
+      <workItem from="1751947943580" duration="15148000" />
+      <workItem from="1752382400123" duration="2055000" />
+      <workItem from="1752471367890" duration="7171000" />
+      <workItem from="1752733784762" duration="6642000" />
+      <workItem from="1752740861921" duration="6205000" />
+      <workItem from="1752780791044" duration="3147000" />
+      <workItem from="1752845394404" duration="10000" />
+      <workItem from="1752896694703" duration="11949000" />
+      <workItem from="1752951080853" duration="4408000" />
+      <workItem from="1752983490584" duration="1913000" />
+      <workItem from="1753000575340" duration="3410000" />
     </task>
     <servers />
   </component>
